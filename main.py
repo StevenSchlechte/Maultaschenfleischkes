@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from sqlite3 import Date
+
+
 def main():
     """ Main program """
     # Code goes over here.
@@ -9,7 +12,23 @@ def main():
 if __name__ == "__main__":
     main()
 class Schedule:
-    pass
+    day: list["Day"]
+
+
+class Day:
+    date: Date
+    starthour: int
+    endhour: int
+    number_of_persons_per_slot: int
+    hours: list[int, list["Person"]]
+
+class Person:
+    name: str
+    timetable: dict
+    skills: list
+    is_female: bool #TODO Think about the name of this
+    friends: list["Person"]
+
 
 class CreateNewSchedule():
     def init(self, data: dict, dayes: dict,):
@@ -30,5 +49,5 @@ class CreateNewSchedule():
         pass
     def check_if_one_person_is_female() -> bool:
         pass
-    def check_if_every_trait_is_once() -> bool:
+    def check_if_every_skill_is_once_available() -> bool:
         pass
