@@ -1,0 +1,32 @@
+{
+    "timetable_for_days": [
+        {    
+            "date": "2025-01-30",
+            "start_hour": 8,
+            "end_hour": 18,
+            "number_of_persons_per_slot": 3
+        },
+        {    
+            "date": "2025-01-29",
+            "start_hour": 8,
+            "end_hour": 18,
+            "number_of_persons_per_slot": 3
+        }
+    ],
+    "people": [
+        {
+            "name": "Lado",
+            "timetable": {},
+            "skills": [],
+            "is_female": false,
+            "friends": []
+        },
+        {
+            "name": "Red",
+            "timetable": {},
+            "skills": [],
+            "is_female": false,
+            "friends": []
+        }
+    ]
+}

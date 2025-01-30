@@ -1,0 +1,32 @@
+{
+    "schedule": [
+        {
+            "date": "2025-01-30",
+            "start_hour": 8,
+            "end_hour": 18,
+            "number_of_persons_per_slot": 5,
+            "hours": [
+                {
+                    "hour": 8,
+                    "people": [
+                        {
+                            "name": "Lado",
+                            "timetable": {},
+                            "skills": [],
+                            "is_female": false,
+                            "friends": []
+                        },
+                        {
+                            "name": "Red",
+                            "timetable": {},
+                            "skills": [],
+                            "is_female": false,
+                            "friends": []
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ]
+}
